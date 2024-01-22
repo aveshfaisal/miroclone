@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap');
+
+@media only screen and (max-width: 991px) {
+      /* ---- NavBar --- */
+      #navbarSupportedContent #signin_outline {
+        padding: 4px 25px !important;
+        text-align: center !important;
+    }
+
+    #navbarSupportedContent #signup_dark {
+        padding: 4px 25px !important;
+        text-align: center !important;
+    }
+    /* ----------------- Find Plan -----------------------  */
+    .find_miro_plan {
+        padding: 24px 0px 24px 8px !important;
+    }
+    .find_miro_plan p {
+        width: 60% !important;
+    }
+
+    /* ----------------- Stratgegic Plan -----------------------  */
+    .strategic_plan_content {
+        margin-bottom: 32px !important;
+    }
+
+    /* ----------------- Key Future -----------------------  */
+    section.key_future {
+        padding: 0px !important;
+    }
+
+
+    /* ----------------- Million Reseoans -----------------------  */
+    .million_reasons h2 {
+        padding-top: 80px !important;
+        margin-bottom: 24px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* ----------------- Navbar -----------------------  */
+    .b_navigation .navbar-toggle {
+        border: 1px solid #1C1C1E;
+        background: #FBF7EF;
+    }
+    .b_logo img {
+        width: 100px !important;
+    }
+    .b_navigation {
+        padding-bottom: 4px !important;
+    }
+    .b_logo span.icon-bar {
+        background: #1c1c1c !important;
+    }
+    .b_logo .navbar-brand {
+        padding: 9px 15px !important;
+    }
+    .right_navi .b_sign_up {
+       
+        margin: 0px 15px !important;
+    }
+    .right_navi .b_login {
+       
+        margin: 0px 15px !important;
+    }
+        
+}
+
+@media only screen and (max-width: 441px) {
+    /* ----------------- Hero Section -----------------------  */
+    .main_hero h1 {
+        font-size: 39px !important;
+        font-weight: 500;
+        line-height: 50px !important;
+    }
+    .hero_section {
+        padding: 56px 32px !important;
+    }
+    .main_hero p {
+        line-height: 26px !important;
+    }
+    .hero_input input {
+        width: auto !important;
+    }
+    button.hero_btn {
+        padding: 16px 12px 16px 12px !important;
+        width: 260px !important;
+    }
+
+    /* ----------------- Trust Clients Section -----------------------  */
+    .trust_cilent .slider {
+        padding: 56px 32px !important;
+    }
+
+    
+    /* ----------------- Find Plan Section -----------------------  */
+    .miro_img img {
+        display: none !important;
+    }
+    .find_miro_plan {
+        position: inherit !important;
+    }
+
+    .explore_miroverse p {
+        width: 100% !important;
+    }
+
+
+    /* ----------------- Connect Platforms Section -----------------------  */
+    .connect_platforms img {
+        margin-bottom: 48px !important;
+    }
+
+
+    /* ----------------- Miroverse Section -----------------------  */
+    .miroverse_img img {
+        margin-bottom: 48px !important;
+    }
+
+
+    /* ----------------- Footer Section -----------------------  */
+    .footer {
+        padding: 40px 0px !important;
+    }
+    .f_product h4 {
+    margin-top: 48px !important;
+}
+}
+
+
+
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+
+
+/* -------------------- Navigation ------------------- */
+
+.b_logo img {
+    width: 130px;
+}
+
+.b_navigation ul li {
+    margin-top: 16px;
+}
+
+.b_navigation ul li a {
+    color: #1c1c1e;
+    font-size: 16px;
+}
+
+.right_navi .b_login {
+    border: 1px solid #1C1C1E;
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+
+.right_navi .b_sign_up {
+    background: #2e4de6;
+    border-radius: 12px;
+    padding: 12px 16px;
+    color: white;
+    margin-left: 8px;
+}
+
+.b_navigation {
+    background: white;
+    border: 1px solid #CACBCC;
+    padding-bottom: 12px;
+    margin: 0px;
+}
+
+
+
+/* -------------------- Hero Section ------------------- */
+.hero_section {
+    background-color: #FBF7EF;
+    padding: 88px;
+}
+
+.main_hero h1 {
+    font-size: 49px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+
+}
+
+.main_hero p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.hero_input input {
+    padding: 12px 48px 12px 12px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    width: 400px;
+    background: white;
+    font-size: 16px;
+}
+
+button.hero_btn {
+    padding: 12px 48px 12px 12px;
+    border-radius: 8px;
+    width: 400px;
+    font-size: 16px;
+    background: #2e4de6;
+    color: white;
+    margin-top: 12px;
+    border: none;
+}
+
+.h_btn p {
+    font-size: 14px;
+    color: grey;
+    margin-top: 8px;
+}
+
+.cta_input {
+    text-align: center;
+    margin-top: 32px;
+}
+
+/* -------------------- Clients Section ------------------- */
+.trust_cilent p {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.trust_cilent img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 60s linear infinite;
+}
+
+.trust_cilent .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+}
+
+.trust_cilent .slider {
+    background-color: #FBF7EF;
+    padding: 88px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translatex(-1000%)
+    }
+}
+
+
+/* -------------------- Find Plan Section ------------------- */
+.miro_img img {
+    width: 100%;
+}
+
+.find_miro_plan h5 {
+    font-size: 21px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.find_miro_plan p {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.find_miro_plan button {
+    padding: 12px 12px;
+    border-radius: 8px;
+    border: 1px solid #1C1C1E;
+    background: #f1f1f1;
+}
+
+.find_miro_plan {
+    position: absolute;
+    bottom: 0;
+    padding: 24px 0px 64px 24px;
+}
+
+section.find_plan {
+    position: relative;
+    background-color: #FBF7EF;
+    padding: 60px 0px 80px 0px;
+}
+
+.find_miro_plan button a {
+    color: #1C1C1E;
+}
+
+
+/* -------------------- Key Future Section ------------------- */
+.strategic_plan_img img {
+    width: 100%;
+}
+
+section.key_future h2 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 46px;
+    margin-bottom: 48px;
+}
+
+.strategic_plan_content h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.strategic_plan_content p {
+    width: 80%;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+section.key_future {
+    background-color: #FBF7EF;
+    padding: 60px 0px 80px 0px;
+}
+
+.strategic_plan_content {
+    margin-top: 100px;
+}
+
+/* -------------------- Million Reasons Section ------------------- */
+.million_reasons p {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.million_reasons {
+    text-align: center;
+}
+
+.million_reasons a {
+    color: #4f7bc0;
+    font-size: 18px;
+}
+
+.enterprice {
+    background: white;
+    border-radius: 16px;
+    border: 0.5px solid;
+    text-align: left;
+    padding: 16px 24px;
+    margin-top: 48px;
+}
+
+.enterprice img {
+    width: 100%;
+}
+
+.enterprice h3 {
+    font-size: 39px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.enterprice p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+}
+
+/* -------------------- Connect Platform Section ------------------- */
+.connect_platforms_content h2 {
+    text-align: left !important;
+}
+
+.connect_platforms_content p {
+    margin-bottom: 32px;
+}
+
+.connect_platforms_content a {
+    color: #4f7bc0;
+}
+
+
+
+/* -------------------- Connect World Section ------------------- */
+
+.world_develop {
+    background: url(../images/product_development-1536x476\ 1.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0px;
+}
+
+.helping_world_develop h2 {
+    font-size: 35px;
+    line-height: 46px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.helping_world_develop p {
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.helping_world_develop button {
+    padding: 12px 12px;
+    border-radius: 8px;
+    border: 1px solid #1C1C1E;
+    background: #f1f1f1;
+}
+
+.helping_world_develop button a {
+    color: #1C1C1E;
+}
+
+
+/* -------------------- Core Capabilities Section ------------------- */
+.core_capability_content img {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.core_capability_content h2 {
+    text-align: left !important;
+}
+
+.accordion-template {
+    margin: auto;
+}
+
+.p0 {
+    padding: 0;
+}
+
+h2 {
+    line-height: 0.5;
+    padding-right: 15px;
+}
+
+h2:before {
+    font-weight: 300;
+    font-size: 65px;
+    line-height: 0.1;
+    color: #1C1C1E;
+    padding-top: 24px;
+}
+
+div[role=tablist] a[aria-expanded=false] h2:before,
+div[role=tablist] .pagination>li.active a[aria-expanded=false]:focus h2:before,
+.pagination>li.active div[role=tablist] a[aria-expanded=false]:focus h2:before,
+div[role=tablist] .pagination>li.active a[aria-expanded=false]:hover h2:before,
+.pagination>li.active div[role=tablist] a[aria-expanded=false]:hover h2:before {
+    content: "+";
+    font-size: 32px;
+    color: #000;
+}
+
+div[role=tablist] a[aria-expanded=false] bill-type,
+div[role=tablist] .pagination>li.active a[aria-expanded=false]:focus bill-type,
+.pagination>li.active div[role=tablist] a[aria-expanded=false]:focus bill-type,
+div[role=tablist] .pagination>li.active a[aria-expanded=false]:hover bill-type,
+.pagination>li.active div[role=tablist] a[aria-expanded=false]:hover bill-type {
+    color: #1C1C1E !important;
+}
+
+div[role=tablist] a[aria-expanded=false] .fgt-title,
+div[role=tablist] .pagination>li.active a[aria-expanded=false]:focus .fgt-title,
+.pagination>li.active div[role=tablist] a[aria-expanded=false]:focus .fgt-title,
+div[role=tablist] .pagination>li.active a[aria-expanded=false]:hover .fgt-title,
+.pagination>li.active div[role=tablist] a[aria-expanded=false]:hover .fgt-title {
+    background-color: #fff;
+
+}
+
+
+
+.panel-group .panel+.panel {
+    margin-top: 2px;
+}
+
+.panel-group .panel-default {
+    border: none;
+}
+
+.panel-group .panel-default .panel-heading {
+    background-color: #ffffff;
+    border-bottom: 1px solid #7e7e7e;
+    border: none;
+}
+
+.panel-group .panel-default .panel-heading bill-type {
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 32px;
+    float: left;
+    line-height: 2.5;
+    color: #1C1C1E;
+    padding-top: 24px;
+}
+
+.panel-group .panel-default .panel-body {
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1) inset;
+    border: none;
+    padding: 0;
+    border-top: 1px solid rgba(126, 126, 126, 0.1);
+}
+
+.panel-group .panel-default .panel-body .list {
+    cursor: pointer;
+    padding: 8px;
+    text-align: left;
+    box-shadow: none;
+    padding-left: 20px;
+}
+
+.panel-group .panel-default .panel-body .list utility-title {
+    font-size: 14px;
+    padding-top: 6px;
+    display: block;
+    float: left;
+    width: 75%;
+    margin-left: 32px;
+    line-height: 24px;
+}
+
+
+
+/* -------------------- Integrated Tools Section ------------------- */
+.integrate_tools .find_miro_plan {
+    position: inherit;
+}
+
+.integrate_tools h2 {
+    text-align: left !important;
+}
+
+/* -------------------- Explore Miroverse Section ------------------- */
+.explore_miroverse {
+    position: inherit;
+}
+
+.explore_miroverse img {
+    margin-top: 64px;
+}
+
+
+/* -------------------- Join Subscribtion Section ------------------- */
+.join_subscribtion {
+    background: #1C1C1E;
+}
+
+.join_community {
+    color: white;
+}
+
+
+
+/* -------------------- Footer Section ------------------- */
+.footer {
+    background: #1C1C1E;
+    padding: 60px 0px;
+
+}
+
+.f_product h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.f_product ul li {
+    margin-bottom: 16px;
+    color: white;
+    font-weight: 300;
+}

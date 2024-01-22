@@ -1,0 +1,135 @@
+* ------------------------------ Banner Logo Section ------------------------------------ */
+.banner_logo img {
+    width: 160px;
+    object-fit: cover;
+    height: auto;
+}
+.banner_logo {
+    text-align: center;
+}
+
+.top_banner_logo {
+    padding: 12px 0px;
+    background: #FBF7EF;
+    border-bottom: 1px solid #bed2e9;
+}
+.banner_logo img {
+    width: 160px;
+}
+
+
+/* ------------------------------ SignIn Form Section ------------------------------------ */
+.sign_in_form {
+    height: 100vh;
+    background: #F9FAFB;
+}
+
+.form_signin_inner {
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.form_signin_inner h3 {
+    margin-top: 24px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.form_input label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #183B56;
+    margin-bottom: 4px;
+}
+
+.form_input input {
+    padding: 8px 30px 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #bed2e9;
+}
+
+.email {
+    margin-top: 20px;
+}
+
+.pass {
+    margin-top: 20px;
+}
+.reset_pass {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.form_btn {
+    background: #2e4de6;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.form_btn a {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.reset_pass a p {
+    font-size: 16px;
+    color: #f05252;
+}
+
+.sign_in_google a img {
+    width:24px;
+    aspect-ratio: 1/1;
+}
+
+.sign_in_google a {
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #a5a5a5;
+    border-radius: 6px;
+    width: 100%;
+    align-items: center;
+    padding: 8px;
+}
+.sign_in_google p {
+    margin-left: 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #a5a5a5;
+    font-weight: 600;
+}
+
+.break p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+    color: #577592;
+}
+
+.sign_in_google {
+    margin-top: 32px;
+}
+.signup p {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.signup span a {
+    color: #2294e4;
+}
+
+.form_input {
+    background: white;
+    padding: 16px 24px;
+    border-radius: 16px;
+    margin-top: 24px;
+    border: 1px solid #e7e7e7;
+}
